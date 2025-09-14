@@ -13,6 +13,6 @@ public class Mover : MonoBehaviour
          float xValue = Input.GetAxis("Horizontal") * Time.deltaTime * moveSpeed;
          float yValue = 0f;
          float zValue = Input.GetAxis("Vertical") * Time.deltaTime * moveSpeed;
-        transform.Translate(xValue,yValue,zValue);
+        transform.Translate(xValue,yValue,zValue, Space.Self);
     }
 }
