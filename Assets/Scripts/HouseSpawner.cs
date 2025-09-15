@@ -11,10 +11,10 @@ public class HouseSpawner : MonoBehaviour
     [SerializeField] private float houseDepth = 32.53511f;
 
 
-    private Vector3 cornerA = new Vector3(-160.4f, 5f, 60f);     // Top Left
-    private Vector3 cornerB = new Vector3(-73.3f, 5f, 59.7f);    // Top Right
-    private Vector3 cornerC = new Vector3(-73.3f, 5f, -53.2f);   // Bottom Right
-    private Vector3 cornerD = new Vector3(-161.7f, 5f, -60f);    // Bottom Left
+    private Vector3 cornerA = new Vector3(-160.4f, 5f, 60f);     
+    private Vector3 cornerB = new Vector3(-73.3f, 5f, 59.7f);    
+    private Vector3 cornerC = new Vector3(-73.3f, 5f, -53.2f);   
+    private Vector3 cornerD = new Vector3(-161.7f, 5f, -60f);   
 
     private List<Vector3> placedPositions = new List<Vector3>();
 
